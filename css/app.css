@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 10em;
+    background-color: aqua;
+    background-image: url("../img/pattern.png");
+    background-size: 40em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.logo {
+    padding-left: 10%;
+    height: 80%;
+
+}
+
+main,
+footer {
+    margin: 0 10%;
+}
+
+.head {
+    margin-bottom: 1em;
+}
+
+.titolo {
+    font-size: 4em;
+}
+
+.sottotitolo {
+    color: grey;
+    font-size: 2em
+}
+
+.testata {
+    color: aquamarine;
+}
+
+#data {
+    color: grey;
+}
+
+figure {
+    display: inline;
+}
+
+.img {
+    display: flex;
+    width: 100%;
+}
+
+.testo {
+    margin-top: 1rem;
+    font-size: 1.5em;
+}
+
+.evidenziato {
+    background-color: yellow;
+}
+
+table {
+    text-align: start;
+}
+
+tr td:nth-child(1),
+tr td:nth-child(2) {
+    width: 25%;
+}
+
+tr td:nth-child(3) {
+    width: 50%;
+}
+
+thead {
+    background-color: rgba(0, 0, 255, 0.449);
+    color: white;
+}
+
+tbody tr {
+    background-color: rgba(0, 255, 255, 0.358);
+}
+
+tr:nth-of-type(2) {
+    background-color: white;
+
+}
+
+.titolo-footer {
+    margin: 3em auto;
+    color: grey;
+}
+
+.imgtesto {
+    font-size: larger;
+    color: white;
+    width: auto;
+    height: 10em;
+    margin: 1em 0;
+    background-repeat: no-repeat;
+}
+
+#img1 {
+    background-image: url(../img/monitor.jpg);
+}
+
+#img2 {
+    background-image: url(../img/graph.jpg);
+}
