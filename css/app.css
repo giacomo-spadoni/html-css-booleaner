@@ -64,6 +64,10 @@ figure {
     background-color: yellow;
 }
 
+ul {
+    margin-left: 22px;
+}
+
 table {
     text-align: start;
 }
