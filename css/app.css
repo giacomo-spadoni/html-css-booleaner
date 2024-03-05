@@ -52,12 +52,16 @@ footer {
     display: flex;
     width: 100%;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
+    justify-content: left;
     flex-wrap: wrap;
 }
 
-.tim {
+#tim {
+    height: 500px;
+    margin-right: 10px;
+}
+
+#tim2 {
     height: 500px;
 }
 
