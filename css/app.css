@@ -106,7 +106,7 @@ tr:nth-of-type(2) {
 }
 
 .titolo-footer {
-    margin: 3em auto;
+    margin: 3em auto 1em;
     color: grey;
 }
 
